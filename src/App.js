@@ -2,6 +2,8 @@ import { useState } from 'react';
 import './App.css';
 /*global chrome*/
 function App() {
+  const [totalDataTransferred, setDataTransfer] = useState(0);
+  const [url, setUrl] = useState('');
   
   chrome.webRequest.onHeadersReceived.addListener(
     function(details) {
