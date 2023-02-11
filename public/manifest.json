@@ -8,8 +8,8 @@
 	},
   "browser_action": {
 		"default_icon": "logo192.png",
-		"default_title": "Click here to see your Coding Schedule.",
+		"default_title": "Click here to see your Carbon Footprint of Website",
 		"default_popup": "index.html"
 	},
-	"permissions": ["tabs", "storage", "webRequest", "<all_urls>"]
+	"permissions": ["tabs", "storage", "webRequestBlocking","webNavigation", "webRequest", "<all_urls>"]
 }
